@@ -18,7 +18,7 @@ module.exports = defineConfig({
   screenshotOnRunFailure: true,
 
   e2e: {
-    baseUrl: "https://academicdemo.cazh.id/",
+    baseUrl: "https://v3.cazh.id/",
     supportFile: path.join(__dirname, "cypress/support/e2e.js"),
     setupNodeEvents(on, config) {
       on('task', {
